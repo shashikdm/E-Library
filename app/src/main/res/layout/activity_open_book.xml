@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/openbook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenBook">
+
+    <TextView
+        android:id="@+id/topbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topbar" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/downloadb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:onClick="downloadbook"
+        android:tint="@color/common_google_signin_btn_text_dark_default"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/colorPrimaryDark"
+        app:srcCompat="@android:drawable/stat_sys_download" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/openb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:onClick="openbook"
+        android:tint="@color/common_google_signin_btn_text_dark_default"
+        app:backgroundTint="@color/design_default_color_primary"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/downloadb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_library_books" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/deleteb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:onClick="deletebook"
+        android:tint="@color/common_google_signin_btn_text_dark_default"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/downloadb"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+
+</android.support.constraint.ConstraintLayout>

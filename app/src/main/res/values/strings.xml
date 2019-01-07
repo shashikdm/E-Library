@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">E Library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">E Library</string>
+    <string name="nav_header_subtitle">elib.feedback@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="update">Update app</string>
+    <string name="resync">Sync</string>
+    <string name="admin">Admin</string>
+    <string name="title_activity_pdf_read">PdfRead</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="recent">Recent</string>
+    <string name="searchbooks">Search books</string>
+    <string name="search">Search</string>
+    <string name="refresh">Refresh all links</string>
+    <string name="refreshing_links">Refreshing Links</string>
+</resources>

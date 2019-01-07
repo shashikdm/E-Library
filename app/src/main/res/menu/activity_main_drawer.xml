@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/deptgroup">
+    </group>
+
+    <item android:title="Communicate" android:orderInCategory="100">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_suggestbook"
+                android:icon="@android:drawable/stat_sys_upload"
+                android:title="Suggest a book" />
+            <item
+                android:id="@+id/nav_bugreport"
+                android:icon="@drawable/ic_menu_bug"
+                android:title="Bug report" />
+        </menu>
+    </item>
+
+</menu>

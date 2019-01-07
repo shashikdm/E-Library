@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="@string/update"
+        app:showAsAction="never" />
+    <item
+        android:visible="true"
+        android:id="@+id/resync"
+        android:orderInCategory="100"
+        android:title="@string/resync"
+        app:showAsAction="never" />
+    <!--Make below item refresh visible only for admin apk-->
+    <item
+        android:visible="true"
+        android:id="@+id/admin"
+        android:orderInCategory="100"
+        android:title="@string/admin"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
