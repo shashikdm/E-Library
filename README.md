@@ -1,5 +1,5 @@
 # E-Library  
-<img src="/images/elib-logo1.png" width="50">  
+<img src="/images/elib-logo1.png" width="50">
 ## User friendly Android app to download and read books  
 [Download Now](https://elibgithub.github.io)  
 ### Functionalities:  
